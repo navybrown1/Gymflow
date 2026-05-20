@@ -19,7 +19,7 @@ const EXERCISE_VIDEOS: Record<number, string> = {
   1: 'vcBig73ojpE', // Barbell Bench Press (Starting Strength - Verified embeddable)
   2: 'idAvu2HvqSQ', // Incline Dumbbell Fly (Scott Herman - Verified embeddable)
   3: 'vmNPOjaGrVE', // Barbell Back Squat (Alan Thrall - Verified embeddable)
-  4: 'kP_qV8J3VfU', // Romanian Deadlift (Alan Thrall - Verified embeddable)
+  4: 'JCxlu3s86Xk', // Romanian Deadlift (Alan Thrall - Verified embeddable)
   5: 'von4DUh9soE', // Lat Pulldown (Colossus Fitness - Verified embeddable)
   6: 'G8l_8chR5BE', // Bent Over Row (Alan Thrall - Verified embeddable)
   7: 'qEwKCR5JCog', // Seated Dumbbell Shoulder Press (Scott Herman - Verified embeddable)
