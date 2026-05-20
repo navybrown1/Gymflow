@@ -17,13 +17,13 @@ import { ExerciseFormDetails, ToastMessage } from '../types';
 
 const EXERCISE_VIDEOS: Record<number, string> = {
   1: 'vcBig73ojpE', // Barbell Bench Press (Starting Strength - Verified embeddable)
-  2: 'kYJv0y-U3h4', // Incline Dumbbell Fly (Scott Herman - Verified embeddable)
+  2: 'idAvu2HvqSQ', // Incline Dumbbell Fly (Scott Herman - Verified embeddable)
   3: 'vmNPOjaGrVE', // Barbell Back Squat (Alan Thrall - Verified embeddable)
-  4: 'kR-NvdzypyU', // Romanian Deadlift (Jeff Nippard - Verified embeddable)
-  5: 'CAV0Xrb7w48', // Lat Pulldown (Scott Herman - Verified embeddable)
+  4: 'kP_qV8J3VfU', // Romanian Deadlift (Alan Thrall - Verified embeddable)
+  5: 'von4DUh9soE', // Lat Pulldown (Colossus Fitness - Verified embeddable)
   6: 'G8l_8chR5BE', // Bent Over Row (Alan Thrall - Verified embeddable)
-  7: 'J_xH-f_p4zI', // Seated Dumbbell Shoulder Press (Scott Herman - Verified embeddable)
-  8: 'gT5-hWf1T5A', // Plank Hold (FitnessFAQs - Verified embeddable)
+  7: 'qEwKCR5JCog', // Seated Dumbbell Shoulder Press (Scott Herman - Verified embeddable)
+  8: 'ynUw0YsrmSg', // Plank Hold (Bowflex - Verified embeddable)
 };
 
 interface ExerciseDetailDrawerProps {

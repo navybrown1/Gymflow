@@ -21,8 +21,8 @@ const MOVEMENT_VIDEOS: Record<string, { correct: string; incorrect: string }> = 
     incorrect: 'G8l_8chR5BE'
   },
   plank: {
-    correct: 'gT5-hWf1T5A', // FitnessFAQs Plank Hold (Correct & verified embeddable)
-    incorrect: 'gT5-hWf1T5A'
+    correct: 'ynUw0YsrmSg', // Bowflex Plank Hold (Correct & verified embeddable)
+    incorrect: 'ynUw0YsrmSg'
   }
 };
 
