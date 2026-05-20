@@ -1,0 +1,6 @@
+{
+  "name": "GymFlow Workout Tracker",
+  "description": "An interactive workout and body weight tracking application containing correct exercise form instructions, animated motivation counters, and actual visual samples.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
