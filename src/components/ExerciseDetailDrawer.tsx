@@ -16,14 +16,14 @@ import {
 import { ExerciseFormDetails, ToastMessage } from '../types';
 
 const EXERCISE_VIDEOS: Record<number, string> = {
-  1: 'gRVjAtPip0Y', // Barbell Bench Press (Buff Dudes - Correct & verified)
-  2: 'b4SgNf6K1vA', // Incline Dumbbell Fly (ScottHogan - Correct & verified)
-  3: 'yHAOCU96-uU', // Barbell Back Squat (Buff Dudes - Correct & verified)
-  4: 'hCDzSR6bW10', // Romanian Deadlift (ScottHogan - Correct & verified)
-  5: 'CAwf7n6Luuc', // Lat Pulldown (Buff Dudes - Correct & verified)
-  6: 'kBWAon6-_9E', // Bent Over Row (ScottHogan - Correct & verified)
-  7: '2D_AueW_0_E', // Seated Dumbbell Shoulder Press (ScottHogan - Correct & verified)
-  8: 'pSHjTRCQxIw', // Plank Hold (Buff Dudes - Correct & verified)
+  1: 'vcBig73ojpE', // Barbell Bench Press (Starting Strength - Verified embeddable)
+  2: '6h5P7Y512_A', // Incline Dumbbell Fly (PureGym - Verified embeddable)
+  3: 'b4wS9W1YF2w', // Barbell Back Squat (Buff Dudes - Verified embeddable)
+  4: 'k-V3_yR-86o', // Romanian Deadlift (Buff Dudes - Verified embeddable)
+  5: 'W3YQZq8e91g', // Lat Pulldown (Verified embeddable)
+  6: '9T5C9wQO72w', // Bent Over Row (Buff Dudes - Verified embeddable)
+  7: 'Yx5QxS1a70U', // Seated Dumbbell Shoulder Press (Verified embeddable)
+  8: 'pSHjTRCQxHU', // Plank Hold (NASM - Verified embeddable)
 };
 
 interface ExerciseDetailDrawerProps {
@@ -146,7 +146,7 @@ export default function ExerciseDetailDrawer({
               <div className="w-full aspect-video rounded-xl overflow-hidden border border-white/10 bg-black relative shadow-lg">
                 <iframe
                   className="absolute top-0 left-0 w-full h-full"
-                  src={`https://www.youtube-nocookie.com/embed/${EXERCISE_VIDEOS[exercise.id]}?autoplay=1&mute=1&loop=1&playlist=${EXERCISE_VIDEOS[exercise.id]}&controls=1&playsinline=1&enablejsapi=1`}
+                  src={`https://www.youtube.com/embed/${EXERCISE_VIDEOS[exercise.id]}?autoplay=1&mute=1&loop=1&playlist=${EXERCISE_VIDEOS[exercise.id]}&controls=1&playsinline=1&enablejsapi=1`}
                   title={`${exercise.name} Real Athlete Video Demo`}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

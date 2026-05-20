@@ -9,20 +9,20 @@ interface BiomechanicalModelProps {
 
 const MOVEMENT_VIDEOS: Record<string, { correct: string; incorrect: string }> = {
   squat: {
-    correct: 'yHAOCU96-uU', // Buff Dudes Back Squat (Correct & verified)
-    incorrect: 'yHAOCU96-uU'
+    correct: 'b4wS9W1YF2w', // Buff Dudes Back Squat (Correct & verified embeddable)
+    incorrect: 'b4wS9W1YF2w'
   },
   bench: {
-    correct: 'gRVjAtPip0Y', // Buff Dudes Bench Press (Correct & verified)
-    incorrect: 'gRVjAtPip0Y'
+    correct: 'vcBig73ojpE', // Starting Strength Bench Press (Correct & verified embeddable)
+    incorrect: 'vcBig73ojpE'
   },
   row: {
-    correct: 'kBWAon6-_9E', // ScottHogan Bent Over Row (Correct & verified)
-    incorrect: 'kBWAon6-_9E'
+    correct: '9T5C9wQO72w', // Buff Dudes Bent Over Row (Correct & verified embeddable)
+    incorrect: '9T5C9wQO72w'
   },
   plank: {
-    correct: 'pSHjTRCQxIw', // Buff Dudes Plank Hold (Correct & verified)
-    incorrect: 'pSHjTRCQxIw'
+    correct: 'pSHjTRCQxHU', // NASM Plank Hold (Correct & verified embeddable)
+    incorrect: 'pSHjTRCQxHU'
   }
 };
 
@@ -149,7 +149,7 @@ export default function BiomechanicalModel({ exerciseId, exerciseName }: Biomech
               <div className="w-full aspect-video rounded-xl overflow-hidden border border-white/10 bg-black relative shadow-lg">
                 <iframe
                   className="absolute top-0 left-0 w-full h-full"
-                  src={`https://www.youtube-nocookie.com/embed/${MOVEMENT_VIDEOS[selectedMovement]?.[viewMode]}?autoplay=1&mute=1&loop=1&playlist=${MOVEMENT_VIDEOS[selectedMovement]?.[viewMode]}&controls=1&playsinline=1&enablejsapi=1`}
+                  src={`https://www.youtube.com/embed/${MOVEMENT_VIDEOS[selectedMovement]?.[viewMode]}?autoplay=1&mute=1&loop=1&playlist=${MOVEMENT_VIDEOS[selectedMovement]?.[viewMode]}&controls=1&playsinline=1&enablejsapi=1`}
                   title="Real Athlete Demonstration"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
