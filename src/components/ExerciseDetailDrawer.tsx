@@ -146,7 +146,7 @@ export default function ExerciseDetailDrawer({
               <div className="w-full aspect-video rounded-xl overflow-hidden border border-white/10 bg-black relative shadow-lg">
                 <iframe
                   className="absolute top-0 left-0 w-full h-full"
-                  src={`https://www.youtube.com/embed/${EXERCISE_VIDEOS[exercise.id]}?autoplay=1&mute=1&loop=1&playlist=${EXERCISE_VIDEOS[exercise.id]}&controls=1`}
+                  src={`https://www.youtube-nocookie.com/embed/${EXERCISE_VIDEOS[exercise.id]}?autoplay=1&mute=1&loop=1&playlist=${EXERCISE_VIDEOS[exercise.id]}&controls=1&playsinline=1&enablejsapi=1`}
                   title={`${exercise.name} Real Athlete Video Demo`}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
