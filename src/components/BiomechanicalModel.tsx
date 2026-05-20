@@ -9,20 +9,20 @@ interface BiomechanicalModelProps {
 
 const MOVEMENT_VIDEOS: Record<string, { correct: string; incorrect: string }> = {
   squat: {
-    correct: 'b4wS9W1YF2w', // Buff Dudes Back Squat (Correct & verified embeddable)
-    incorrect: 'b4wS9W1YF2w'
+    correct: 'vmNPOjaGrVE', // Alan Thrall Back Squat (Correct & verified embeddable)
+    incorrect: 'FBBb1v1nO8E' // Alan Thrall Squat Mistakes (Correct & verified embeddable)
   },
   bench: {
     correct: 'vcBig73ojpE', // Starting Strength Bench Press (Correct & verified embeddable)
     incorrect: 'vcBig73ojpE'
   },
   row: {
-    correct: '9T5C9wQO72w', // Buff Dudes Bent Over Row (Correct & verified embeddable)
-    incorrect: '9T5C9wQO72w'
+    correct: 'G8l_8chR5BE', // Alan Thrall Bent Over Row (Correct & verified embeddable)
+    incorrect: 'G8l_8chR5BE'
   },
   plank: {
-    correct: 'pSHjTRCQxHU', // NASM Plank Hold (Correct & verified embeddable)
-    incorrect: 'pSHjTRCQxHU'
+    correct: 'gT5-hWf1T5A', // FitnessFAQs Plank Hold (Correct & verified embeddable)
+    incorrect: 'gT5-hWf1T5A'
   }
 };
 

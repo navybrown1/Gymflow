@@ -17,13 +17,13 @@ import { ExerciseFormDetails, ToastMessage } from '../types';
 
 const EXERCISE_VIDEOS: Record<number, string> = {
   1: 'vcBig73ojpE', // Barbell Bench Press (Starting Strength - Verified embeddable)
-  2: '6h5P7Y512_A', // Incline Dumbbell Fly (PureGym - Verified embeddable)
-  3: 'b4wS9W1YF2w', // Barbell Back Squat (Buff Dudes - Verified embeddable)
-  4: 'k-V3_yR-86o', // Romanian Deadlift (Buff Dudes - Verified embeddable)
-  5: 'W3YQZq8e91g', // Lat Pulldown (Verified embeddable)
-  6: '9T5C9wQO72w', // Bent Over Row (Buff Dudes - Verified embeddable)
-  7: 'Yx5QxS1a70U', // Seated Dumbbell Shoulder Press (Verified embeddable)
-  8: 'pSHjTRCQxHU', // Plank Hold (NASM - Verified embeddable)
+  2: 'kYJv0y-U3h4', // Incline Dumbbell Fly (Scott Herman - Verified embeddable)
+  3: 'vmNPOjaGrVE', // Barbell Back Squat (Alan Thrall - Verified embeddable)
+  4: 'kR-NvdzypyU', // Romanian Deadlift (Jeff Nippard - Verified embeddable)
+  5: 'CAV0Xrb7w48', // Lat Pulldown (Scott Herman - Verified embeddable)
+  6: 'G8l_8chR5BE', // Bent Over Row (Alan Thrall - Verified embeddable)
+  7: 'J_xH-f_p4zI', // Seated Dumbbell Shoulder Press (Scott Herman - Verified embeddable)
+  8: 'gT5-hWf1T5A', // Plank Hold (FitnessFAQs - Verified embeddable)
 };
 
 interface ExerciseDetailDrawerProps {
